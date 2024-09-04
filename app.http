@@ -1,0 +1,25 @@
+### Get all movies
+GET http://localhost:3000/players/1/matches
+
+### Add a new movie
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "title": "Inception",
+  "director": "Christopher Nolan",
+  "releaseYear": 2010
+}
+
+### Update a movie
+PUT http://localhost:3000/players/3/
+Content-Type: application/json
+
+{
+  "title": "Inception",
+  "director": "Christopher Nolan",
+  "releaseYear": 2010
+}
+
+### Delete a movie
+DELETE http://localhost:3000/movies/1
